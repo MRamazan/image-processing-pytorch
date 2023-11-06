@@ -13,7 +13,7 @@ googlenet = models.googlenet(pretrained=True)
 # Modelin son sınıf katmanını değiştirin (ImageNet için 1000 sınıf yerine)
 #.fc fully connected anlamına gelir googlenet imagenet verisinini bi katmanıdır. bu katman 1000 sınıf içerir biz bunu 24 ile değiştiriyoz
 #.nn ifadesi yapay sinir ağı mimarisinde değişiklik yapmak için kullanılır burda fully connected katmanında değişiklik yapıldı
-num_classes = 24  # Örnek olarak, 10 farklı sınıf için
+num_classes = 24  # Örnek olarak, 24 farklı sınıf için
 #in_features girdi özellik sayısı , out features çıktı özellik sayısı. burda yerine num classes konulmuş. nn.linear bi sınıftır parametrelerini değiştiriyoz. .fc de katmandır.
 googlenet.fc = nn.Linear(googlenet.fc.in_features, num_classes)
 
