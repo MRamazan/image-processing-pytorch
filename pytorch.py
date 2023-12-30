@@ -103,7 +103,7 @@ test_labels = []  # Test etiketlerini depolamak için boş bir liste oluşturun
 
 
 # test verilerini işlemek ve etiketlemek için fonksiyon
-def testpre(etikett):
+def test(etikett):
         sinif = arctestt[etikett]
         yoll = os.path.join(test_yol, sinif)
         sinif_testleri = os.listdir(yoll)
@@ -117,7 +117,7 @@ def testpre(etikett):
                 test_labels.append(etikett)
 #fonksiyonu 24 kere çalıştırır bu sayede 24 klasörede işlem uygulanır. ilk sınıf 0 etiketiyle başlar son sınıf 23 etiketiyle biter
 for x in range(0, 24):
-    testpre(x)
+    test(x)
 
 
 
