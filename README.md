@@ -1,2 +1,3 @@
-# image-processing-pytorch
-image processing with pytorch
+# image-classification-pytorch
+image classification with pytorch
+its my first machine learning project.
