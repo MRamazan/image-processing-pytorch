@@ -1,3 +1,5 @@
-# image-classification-pytorch
-image classification with pytorch <br>
-its my first machine learning project.
+# Image lassification with pytorch
+
+an image classification project built using pytorch, along with my personal notes.  <br>
+it is my first machine learning project..
+
